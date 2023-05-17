@@ -3,12 +3,15 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <form className="contact-form">
-      <input type="text" placeholder="Name" required />
-      <input type="email" placeholder="Email" required />
-      <textarea placeholder="Message" required />
-      <button type="submit">Submit</button>
-    </form>
+    <div className="contact">
+      <h2>Contact Me</h2>
+      <form className="contact-form">
+        <input type="text" placeholder="Your name" name="name" />
+        <input type="email" placeholder="Your email" name="email" />
+        <textarea placeholder="Your message" name="message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
   );
 }
 

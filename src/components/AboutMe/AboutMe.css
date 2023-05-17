@@ -1,0 +1,21 @@
+.about-me {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.my-photo {
+  max-width: 30%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.bio {
+  width: 60%;
+}
+
+.photo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

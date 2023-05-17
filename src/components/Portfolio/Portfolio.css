@@ -1,0 +1,12 @@
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project {
+  flex: 1 0 30%;
+  margin: 10px;
+  box-sizing: border-box;
+}
