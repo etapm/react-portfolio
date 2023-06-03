@@ -7,19 +7,21 @@
   margin-bottom: 20px;
 }
 
-.resume-section {
+.row {
   display: flex;
-  flex-direction: column; /* stack children vertically */
+  align-items: flex-start;
   justify-content: space-between;
   margin-bottom: 10px;
 }
 
-.resume-section h3 {
+.header-col {
   flex: 1;
+  font-weight: bold;
+  margin-right: 20px;
 }
 
-.resume-section p {
-  flex: 2;
+.main-col {
+  flex: 3;
 }
 
 .button {
@@ -29,5 +31,5 @@
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
-  transition: background-color 0.3;
+  transition: background-color 0.3s;
 }
