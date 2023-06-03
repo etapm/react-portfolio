@@ -2,12 +2,19 @@ import React from "react";
 import "./Header.css";
 import Navigation from "../Navigation/Navigation";
 
-function Header() {
+const Header = React.forwardRef((props, ref) => {
   return (
-    <header className="header">
+    <header className="header" ref={ref}>
       <h1>Edgar Tapia Mendoza</h1>
       <h3>Software Developer/ Project Manager/ Tech</h3>
-      <Navigation />
+      <Navigation
+        scrollToRef={props.scrollToRef}
+        headerRef={ref}
+        aboutMeRef={props.aboutMeRef}
+        portfolioRef={props.portfolioRef}
+        contactRef={props.contactRef}
+        resumeRef={props.resumeRef}
+      />
       <div className="social-buttons">
         <a
           href="https://github.com/etapm"
@@ -28,6 +35,6 @@ function Header() {
       </div>
     </header>
   );
-}
+});
 
 export default Header;

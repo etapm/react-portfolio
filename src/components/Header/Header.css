@@ -5,7 +5,7 @@
   align-items: center;
   height: 100%;
   text-align: center;
-  margin-top: -30px;
+  background-color: #383f51;
 }
 
 h1 {
@@ -32,5 +32,9 @@ h3 {
 }
 
 .social-button:hover {
-  background-color: #0056b3;
+  background-color: #383f51;
+}
+
+.App .App-header .header {
+  background-color: #383f51;
 }

@@ -1,7 +1,12 @@
 .about-me {
+  text-align: center;
+  flex-direction: column;
+}
+
+.content {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  padding: 50px;
 }
 
 .my-photo {
@@ -10,12 +15,17 @@
   border-radius: 50%;
 }
 
-.bio {
-  width: 60%;
-}
-
 .photo-container {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.bio {
+  width: 100%;
+  max-width: 800px;
 }

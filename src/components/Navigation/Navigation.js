@@ -1,10 +1,11 @@
+// Navigation.js
 import React from "react";
 import "./Navigation.css";
 
 function Navigation() {
   return (
     <nav className="navigation">
-      <a href="#home" className="header-link">
+      <a href="#" className="header-link">
         HOME
       </a>
       <a href="#about-me" className="header-link">
